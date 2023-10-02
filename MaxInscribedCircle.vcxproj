@@ -149,7 +149,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="kcgmatch.cpp" />
+    <ClCompile Include="kcg_main.cpp" />
     <ClCompile Include="MaxInscribedCircle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kcgmatch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
